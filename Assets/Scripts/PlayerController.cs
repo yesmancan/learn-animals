@@ -22,6 +22,8 @@ public class PlayerController : MonoBehaviour
 
     public bool pressLeft = false;
     public bool pressRight = false;
+
+    private float ScreenWidth;
     public void Start()
     {
         manager = GameManager.instance;
@@ -30,36 +32,48 @@ public class PlayerController : MonoBehaviour
         animator.SetBool("IsDeadOnTop", false);
         animator.SetBool("IsDeadOnLeft", false);
         animator.SetBool("IsAlive", true);
+
+        ScreenWidth = Screen.width;
     }
     void Update()
     {
         #region Move Controller
+
+        int i = 0;
+        while (i < Input.touchCount)
+        {
+            if (Input.GetTouch(i).position.x > ScreenWidth / 2)
+            {
+                pressRight = true;
+            }
+            if (Input.GetTouch(i).position.x > ScreenWidth / 2)
+            {
+                pressLeft = true;
+            }
+            i++;
+        }
+
+
         if ((Input.GetKeyDown(KeyCode.LeftArrow) || pressLeft) && player.transform.position == playergoMiddle && !manager.isGameOver)
         {
             player.transform.position = playergoLeft;
-            pressRight = false;
-            pressLeft = false;
         }
         else if ((Input.GetKeyDown(KeyCode.LeftArrow) || pressLeft) && player.transform.position == playergoRight && !manager.isGameOver)
         {
             player.transform.position = playergoMiddle;
-            pressRight = false;
-            pressLeft = false;
         }
         else if ((Input.GetKeyDown(KeyCode.RightArrow) || pressRight) && player.transform.position == playergoMiddle && !manager.isGameOver)
         {
             player.transform.position = playergoRight;
-            pressRight = false;
-            pressLeft = false;
         }
         else if ((Input.GetKeyDown(KeyCode.RightArrow) || pressRight) && player.transform.position == playergoLeft && !manager.isGameOver)
         {
             player.transform.position = playergoMiddle;
-            pressRight = false;
-            pressLeft = false;
         }
 
-   
+        pressRight = false;
+        pressLeft = false;
+
         #endregion
     }
 

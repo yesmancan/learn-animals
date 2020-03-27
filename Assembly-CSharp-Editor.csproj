@@ -70,6 +70,69 @@
     <Compile Include="Assets\GoogleMobileAds\Editor\PListProcessor.cs" />
     <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver_v1.2.136.0.txt" />
     <None Include="Assets\GoogleMobileAds\Editor\GoogleMobileAdsDependencies.xml" />
+    <Reference Include="UnityEditor.TestRunner">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.2D.SpriteShape.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Path.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.2D.Path.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Rider.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.2D.Common.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.2D.SpriteShape.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.Mathematics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
     </Reference>
@@ -284,19 +347,19 @@
       <HintPath>C:/Program Files (x86)/Microsoft Visual Studio Tools for Unity/16.0/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
     <Reference Include="Google.IOSResolver_v1.2.136.0">
-      <HintPath>C:/Users/yesma/learn-animals/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.136.0.dll</HintPath>
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Assets/PlayServicesResolver/Editor/Google.IOSResolver_v1.2.136.0.dll</HintPath>
     </Reference>
     <Reference Include="Google.JarResolver_v1.2.136.0">
-      <HintPath>C:/Users/yesma/learn-animals/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.136.0.dll</HintPath>
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Assets/PlayServicesResolver/Editor/Google.JarResolver_v1.2.136.0.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandler">
-      <HintPath>C:/Users/yesma/learn-animals/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Assets/PlayServicesResolver/Editor/Google.VersionHandler.dll</HintPath>
     </Reference>
     <Reference Include="Google.VersionHandlerImpl_v1.2.136.0">
-      <HintPath>C:/Users/yesma/learn-animals/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.136.0.dll</HintPath>
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Assets/PlayServicesResolver/Editor/Google.VersionHandlerImpl_v1.2.136.0.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>C:/Users/yesma/learn-animals/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>D:/Works/LeblebiGames/learn-animals/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.iOS.Extensions.Xcode">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.5f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
@@ -663,90 +726,6 @@
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{DFC7F37C-B8C3-684F-3CE4-F5B1B88A12C6}</Project>
       <Name>Assembly-CSharp</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.TestRunner.csproj">
-      <Project>{103487AC-E338-E264-9A7C-220FE87E1B41}</Project>
-      <Name>UnityEditor.TestRunner</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.TestRunner.csproj">
-      <Project>{FA9284AA-CD81-D052-E413-F4E574EBF3E2}</Project>
-      <Name>UnityEngine.TestRunner</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{A1B03F38-74D6-881E-8D86-60CA999BC1BB}</Project>
-      <Name>Unity.Timeline.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{6F3856B6-35BB-BD44-793D-18EE2893CBA3}</Project>
-      <Name>Unity.VSCode.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Editor.csproj">
-      <Project>{66013436-A382-BBBC-9DB7-1674BB54642B}</Project>
-      <Name>Unity.2D.SpriteShape.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{245315ED-37F5-9670-B3DF-02AB37C7D16E}</Project>
-      <Name>Unity.TextMeshPro.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Path.Editor.csproj">
-      <Project>{219427A9-B99B-4C8F-D604-6F06BD5C428F}</Project>
-      <Name>Unity.2D.Path.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{F7DE5732-7AEF-9E7B-AFCF-8B0C1077AA7F}</Project>
-      <Name>UnityEngine.UI</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{071A11BD-7B03-D88E-575E-37F86B879915}</Project>
-      <Name>Unity.Timeline</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.CollabProxy.Editor.csproj">
-      <Project>{6BA876EA-2DA0-B0C9-45DC-3A5B0E705664}</Project>
-      <Name>Unity.CollabProxy.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{27C8623C-2D0B-4084-2826-0B7947563560}</Project>
-      <Name>Unity.Rider.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{8CDB6841-930A-5268-674B-D5E12FB8829E}</Project>
-      <Name>Unity.Mathematics</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEngineBridge.001.csproj">
-      <Project>{2866AB32-A5D9-24D6-EBBC-2AE385A83362}</Project>
-      <Name>Unity.InternalAPIEngineBridge.001</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Sprite.Editor.csproj">
-      <Project>{F433EDEA-A850-92EF-4C7A-81FD29517F50}</Project>
-      <Name>Unity.2D.Sprite.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Runtime.csproj">
-      <Project>{9EBC6D71-9CB5-61E4-DD8B-C53469E5A3FA}</Project>
-      <Name>Unity.2D.Common.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.SpriteShape.Runtime.csproj">
-      <Project>{931B514A-1436-3659-CD76-03B9560C7F8D}</Project>
-      <Name>Unity.2D.SpriteShape.Runtime</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{70BD6D56-1DBD-D23A-0DC5-CE4ACD06CDCF}</Project>
-      <Name>Unity.Mathematics.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{5BC7E8FA-6973-5828-DBF4-BABC02350545}</Project>
-      <Name>Unity.TextMeshPro</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.2D.Common.Editor.csproj">
-      <Project>{EC938A62-4B11-4DF1-D55F-36200CFEC225}</Project>
-      <Name>Unity.2D.Common.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="Unity.InternalAPIEditorBridge.001.csproj">
-      <Project>{BFB951CB-08DC-2782-4BC2-9E3F84A1864B}</Project>
-      <Name>Unity.InternalAPIEditorBridge.001</Name>
-    </ProjectReference>
-    <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{B4B26302-9230-B171-97B7-1B7A52F2484D}</Project>
-      <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
